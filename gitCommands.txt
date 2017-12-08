@@ -56,7 +56,9 @@ push local contentto repository.
 origin master - push from the top
 
 16) git pull --rebase origin master
+
 get the repository content to the local
 
 17) git pull
 pull the content, but --rebase is better...
+
