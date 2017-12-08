@@ -23,7 +23,7 @@ $ cd testProject/
 9) check status of the content
 git status
 
-new content
+new content - red
 added content
 commited
 modifeid - red
@@ -40,7 +40,7 @@ Use gitk and git status to view the status after git stash
 
 13) Adding the content to repository 
 
-git add.
+git add .
 
 do a modification to a file/add a new file ... and then git command -> git add.
 
