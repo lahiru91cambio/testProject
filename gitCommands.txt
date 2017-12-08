@@ -1,0 +1,62 @@
+GIT
+====
+
+1) Download git client
+2) Create a git account, login
+3) Go to repositories and Create a new repository (ex:- testProject)
+4) Then clone the project to the local machine. Click on Clone or Download button, then copy the URL given. 
+5) Create a local folder in the machine. Then Navigate to the folder location
+6) Inside the folder; Right Click and go to 'Git Bash Here". 
+
+Git Commands
+===========
+
+7) git clone <url copied in step 5>
+clone the project repository. Remote content will be downloaded. 
+
+$ git clone https://github.com/lahiru/testProject.git
+ex:_ local folder -->> C:\aaaGIT
+
+8) Change folder 
+$ cd testProject/
+
+9) check status of the content
+git status
+
+new content
+added content
+commited
+modifeid - red
+
+10) graphical view to see the level
+gitk
+11) do some modification to an existing file and check the status with git status. 
+git status - file will be listed in red
+gitk - level of remote repository & local will be different
+
+12) Remove uncommited, modified content - git stash
+All the modofcation will be removed. Any new files will be deleted. 
+Use gitk and git status to view the status after git stash
+
+13) Adding the content to repository 
+
+git add.
+
+do a modification to a file/add a new file ... and then git command -> git add.
+
+14) commiting to repositiory
+git commit -m "<give a comment>" 
+
+ex:- $ git commit -m "initial commit"
+"-m" - 
+
+15) git push origin master
+
+push local contentto repository. 
+origin master - push from the top
+
+16) git pull --rebase origin master
+get the repository content to the local
+
+17) git pull
+pull the content, but --rebase is better...
