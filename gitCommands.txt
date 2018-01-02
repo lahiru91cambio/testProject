@@ -61,4 +61,8 @@ get the repository content to the local
 
 17) git pull
 pull the content, but --rebase is better...
+  
+18) git log
+
+19) git gui
 
